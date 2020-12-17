@@ -1,0 +1,31 @@
+!# vim: set filetype=xdefaults:
+
+xscreensaver.Dialog.background:                 #282828
+xscreensaver.Dialog.foreground:                 #040402
+xscreensaver.Dialog.shadowThickness:            3
+xscreensaver.Dialog.topShadowColor:             #282828
+xscreensaver.Dialog.bottomShadowColor:          #282828
+xscreensaver.Dialog.Button.background:          #282828
+xscreensaver.Dialog.Button.foreground:          #282828
+xscreensaver.Dialog.text.background:            #0c0c0a
+xscreensaver.Dialog.text.foreground:            #878785
+xscreensaver.Dialog.borderWidth:                2
+xscreensaver.Dialog.borderColor:                #0c0c0a
+xscreensaver.Dialog.internalBorderWidth:        26
+
+xscreensaver.passwd.thermometer.width:          16
+xscreensaver.passwd.thermometer.foreground:     #5a6504
+xscreensaver.passwd.thermometer.background:     #090907
+
+xscreensaver.Dialog.headingFont:                -adobe-helvetica-bold-r-*-*-34-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:                   -adobe-helvetica-bold-r-*-*-14-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:                  -adobe-helvetica-bold-r-*-*-20-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:                  -adobe-helvetica-bold-r-*-*-14-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:                 -adobe-helvetica-bold-r-*-*-20-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:                   -adobe-helvetica-bold-r-*-*-14-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:                 -adobe-helvetica-bold-r-*-*-14-*-*-*-*-*-*
+
+xscreensaver.dateFormat:
+xscreensaver.passwd.body.label:
+xscreensaver.passwd.heading.label:              LOCKED
+xscreensaver.newLoginCommand:

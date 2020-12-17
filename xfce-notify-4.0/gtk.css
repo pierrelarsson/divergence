@@ -1,0 +1,28 @@
+#XfceNotifyWindow {
+    background-color: #303030;
+    border-radius: 1px;
+    border: 6px solid #808080;
+    color: #d0d0d0;
+}
+
+#XfceNotifyWindow label#summary {
+    font-weight: Bold;
+    color: #e4e4e4;
+}
+
+#XfceNotifyWindow button {
+    background-color: #4e4e4e;
+    background-image: none;
+    border: none;
+    font-weight: Bold;
+    border-style: none;
+    box-shadow: none;
+    text-shadow: none;
+    color: #303030;
+    border-radius: 0px;
+}
+
+#XfceNotifyWindow button:hover {
+    background-color: #afff00;
+    color: #303030;
+}

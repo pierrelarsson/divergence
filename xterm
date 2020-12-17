@@ -1,0 +1,55 @@
+!# vim: set filetype=xdefaults:
+
+!# config
+XTerm*borderWidth:                          0
+XTerm*scrollBarBorder:                      0
+XTerm*borderColor:                          rgb:00/00/00
+XTerm*boldColors:                           false
+XTerm*cursorColor:                          rgb:9e/9e/9e
+XTerm.vt100.internalBorder:                 2
+XTerm.vt100.scrollbar.thumb:                None
+
+
+XTerm.SimpleMenu.borderWidth:               6
+XTerm.SimpleMenu.borderColor:               rgb:80/80/80
+XTerm.SimpleMenu*background:                rgb:30/30/30
+
+
+XTerm*Scrollbar.background:                 rgb:26/26/26
+XTerm*Scrollbar.foreground:                 rgb:44/44/44
+
+!# foreground
+XTerm*foreground:                           rgb:d0/d0/d0
+XTerm*background:                           rgb:1c/1d/1f
+
+!# black/white
+XTerm*VT100*color0:                         rgb:12/12/12
+XTerm*VT100*color15:                        rgb:e4/e4/e4
+
+!# gray
+XTerm*VT100*color8:                         rgb:6c/6c/6c
+XTerm*VT100*color7:                         rgb:9e/9e/9e
+
+!# red
+XTerm*VT100*color1:                         rgb:ff/5f/5f
+XTerm*VT100*color9:                         rgb:d7/87/87
+
+!# green
+XTerm*VT100*color2:                         rgb:af/ff/00
+XTerm*VT100*color10:                        rgb:87/d7/5f
+
+!# yellow
+XTerm*VT100*color3:                         rgb:ff/af/00
+XTerm*VT100*color11:                        rgb:d7/af/5f
+
+!# blue
+XTerm*VT100*color4:                         rgb:5f/af/ff
+XTerm*VT100*color12:                        rgb:87/af/d7
+
+!# magenta
+XTerm*VT100*color5:                         rgb:ff/87/ff
+XTerm*VT100*color13:                        rgb:ff/af/d7
+
+!# cyan
+XTerm*VT100*color6:                         rgb:5f/ff/ff
+XTerm*VT100*color14:                        rgb:87/d7/d7

@@ -1,0 +1,33 @@
+# vim: set filetype=muttrc:
+
+color attachment    color116 default
+
+color error         brightcolor203 default
+
+color hdrdefault    color67 color233
+color header        brightcolor75 color233 ^(From|Subject):
+
+color indicator     brightcolor15   color239        # Visual
+
+color quoted        color242        default
+
+color status        brightcolor231  color238
+
+color message       brightcolor208  default
+
+color search        color234        color208
+
+color normal        default         default
+
+color signature     default         default
+
+color body          brightdefault   default         "[*][[:alnum:]-]+[*]"
+
+color tilde         color247        color233
+
+color index         brightdefault   default         "~N"                # new messages
+color index         brightcolor242  default         "~N!~p"             # new messages, not addressed to me
+color index         color242        default         "~R!~p"             # read messages, not addressed to me
+color index         brightcolor170  default         "~F"                # flagged
+color index         brightcolor214  default         "~T"                # tagged
+color index         color203        default         "~D"                # deleted

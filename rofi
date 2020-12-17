@@ -1,0 +1,130 @@
+/*
+vim: syntax=css:
+*/
+
+* {
+    text-color:         #d0d0d0;
+    font:               "Monospace 9";
+    highlight:          bold #afff00;
+    spacing:            0;
+}
+
+#window {
+    border:             6;
+    border-color:       #5f8700;
+}
+
+#mainbox {
+    background-color:   #1c1d1f;
+    padding:            0 0 0 2;
+    orientation:        vertical;
+    children:           [ listview, footer ];
+}
+
+#listview {
+    background-color:   #121212;
+    scrollbar:          true;
+    fixed-columns:      true;
+    lines:              16;
+    padding:            0;
+    margin:             0;
+}
+
+#element {
+    background-color:   #1c1d1f;
+    padding:            4;
+}
+
+#element selected {
+    background-color:   #262626;
+    color:              #87d700;
+}
+
+#footer {
+    expand:             false;
+    orientation:        horizontal;
+    children:           [ bar, scrollbar ];
+}
+
+#bar {
+    background-color:   #1c1d1f;
+    expand:             true;
+    orientation:        vertical;
+    children:           [ statusbar, inputbar ];
+}
+
+#statusbar {
+    background-color:   #444444;
+    orientation:        horizontal;
+    expand:             true;
+    horizontal-align:   1;
+    children:           [ prompt, rows, case-indicator ];
+    padding:            2;
+    spacing:            4;
+}
+
+#rows {
+    orientation:        horizontal;
+    children:           [ num-filtered-rows, textboxrows, num-rows ];
+    expand:             false;
+}
+
+#textboxrows {
+    font:               "Monospace Bold 9";
+    text-color:         #e4e4e4;
+    background-color:   #444444;
+    content:            "/";
+}
+
+#inputbar {
+    background-color:   #1c1d1f;
+    children:           [ textboxlabel, entry ];
+}
+
+#textboxlabel {
+    background-color:   #1c1d1f;
+    content:            ":";
+    padding:            4 0;
+    expand:             false;
+}
+
+#prompt {
+    font:               "Monospace Bold 9";
+    text-color:         #e4e4e4;
+    background-color:   #444444;
+    expand:             true;
+}
+
+#num-rows {
+    font:               "Monospace Bold 9";
+    text-color:         #e4e4e4;
+    background-color:   #444444;
+}
+
+#num-filtered-rows {
+    font:               "Monospace Bold 9";
+    text-color:         #e4e4e4;
+    background-color:   #444444;
+}
+
+#case-indicator {
+    font:               "Monospace Bold 9";
+    text-color:         #e4e4e4;
+    background-color:   #444444;
+}
+
+#entry {
+    background-color:   #1c1d1f;
+    padding:            4 0;
+}
+
+#scrollbar {
+    background-color:   #262626;
+    handle-color:       #444444;
+    handle-width:       14;
+    padding:            1;
+    width:              18;
+    expand:             false;
+    border:             0 0 0 2;
+    border-color:       #1c1d1f;
+}
