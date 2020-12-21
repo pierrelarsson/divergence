@@ -1,21 +1,21 @@
 !# vim: set filetype=xdefaults:
 
-xscreensaver.Dialog.background:                 #282828
-xscreensaver.Dialog.foreground:                 #040402
+xscreensaver.Dialog.background:                 #262626
+xscreensaver.Dialog.foreground:                 #121212
 xscreensaver.Dialog.shadowThickness:            3
-xscreensaver.Dialog.topShadowColor:             #282828
-xscreensaver.Dialog.bottomShadowColor:          #282828
-xscreensaver.Dialog.Button.background:          #282828
-xscreensaver.Dialog.Button.foreground:          #282828
-xscreensaver.Dialog.text.background:            #0c0c0a
-xscreensaver.Dialog.text.foreground:            #878785
-xscreensaver.Dialog.borderWidth:                2
-xscreensaver.Dialog.borderColor:                #0c0c0a
+xscreensaver.Dialog.topShadowColor:             #262626
+xscreensaver.Dialog.bottomShadowColor:          #262626
+xscreensaver.Dialog.Button.background:          #262626
+xscreensaver.Dialog.Button.foreground:          #262626
+xscreensaver.Dialog.text.background:            #121212
+xscreensaver.Dialog.text.foreground:            #6c6c6c
+xscreensaver.Dialog.borderWidth:                6
+xscreensaver.Dialog.borderColor:                #262626
 xscreensaver.Dialog.internalBorderWidth:        26
 
-xscreensaver.passwd.thermometer.width:          16
-xscreensaver.passwd.thermometer.foreground:     #5a6504
-xscreensaver.passwd.thermometer.background:     #090907
+xscreensaver.passwd.thermometer.width:          18
+xscreensaver.passwd.thermometer.foreground:     #5f8700
+xscreensaver.passwd.thermometer.background:     #121212
 
 xscreensaver.Dialog.headingFont:                -adobe-helvetica-bold-r-*-*-34-*-*-*-*-*-*
 xscreensaver.Dialog.bodyFont:                   -adobe-helvetica-bold-r-*-*-14-*-*-*-*-*-*
