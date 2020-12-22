@@ -35,21 +35,21 @@ XTerm*VT100*color1:                         rgb:ff/5f/5f
 XTerm*VT100*color9:                         rgb:d7/87/87
 
 !# green
-XTerm*VT100*color2:                         rgb:af/ff/00
+XTerm*VT100*color2:                         rgb:87/d7/00
 XTerm*VT100*color10:                        rgb:87/d7/5f
 
 !# yellow
-XTerm*VT100*color3:                         rgb:ff/af/00
+XTerm*VT100*color3:                         rgb:ff/87/00
 XTerm*VT100*color11:                        rgb:d7/af/5f
 
 !# blue
-XTerm*VT100*color4:                         rgb:5f/af/ff
+XTerm*VT100*color4:                         rgb:5f/87/af
 XTerm*VT100*color12:                        rgb:87/af/d7
 
 !# magenta
-XTerm*VT100*color5:                         rgb:ff/87/ff
-XTerm*VT100*color13:                        rgb:ff/af/d7
+XTerm*VT100*color5:                         rgb:af/5f/af
+XTerm*VT100*color13:                        rgb:d7/af/ff
 
 !# cyan
-XTerm*VT100*color6:                         rgb:5f/ff/ff
+XTerm*VT100*color6:                         rgb:5f/d7/d7
 XTerm*VT100*color14:                        rgb:87/d7/d7
