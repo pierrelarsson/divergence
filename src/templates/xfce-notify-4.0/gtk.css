@@ -1,0 +1,28 @@
+#XfceNotifyWindow {
+    background-color: #{{ xfcenotifyd.background|hex }};
+    border-radius: 1px;
+    border: 6px solid #{{ xfcenotifyd.border|hex }};
+    color: #{{ xfcenotifyd.foreground|hex }};
+}
+
+#XfceNotifyWindow label#summary {
+    font-weight: Bold;
+    color: #{{ xfcenotifyd.title|hex }};
+}
+
+#XfceNotifyWindow button {
+    background-color: #{{ xfcenotifyd.button|hex }};
+    background-image: none;
+    border: none;
+    font-weight: Bold;
+    border-style: none;
+    box-shadow: none;
+    text-shadow: none;
+    color: #{{ xfcenotifyd.background|hex }};
+    border-radius: 0px;
+}
+
+#XfceNotifyWindow button:hover {
+    background-color: #{{ xfcenotifyd.hover|hex }};
+    color: #{{ xfcenotifyd.background|hex }};
+}

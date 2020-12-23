@@ -1,0 +1,202 @@
+# vim: set filetype=dircolors:
+
+TERM Eterm
+TERM ansi
+TERM *color*
+TERM con[0-9]*x[0-9]*
+TERM cons25
+TERM console
+TERM cygwin
+TERM dtterm
+TERM gnome
+TERM hurd
+TERM jfbterm
+TERM konsole
+TERM kterm
+TERM linux
+TERM linux-c
+TERM mlterm
+TERM putty
+TERM rxvt*
+TERM screen*
+TERM st
+TERM terminator
+TERM tmux*
+TERM vt100
+TERM xterm*
+TERM xterm
+TERM xterm-16color
+TERM xterm-256color
+TERM xterm-88color
+TERM xterm-color
+TERM xterm-debian
+
+NORMAL                  0
+FILE                    0
+RESET                   0
+
+DIR                     {{ dircolors.DIR|termfg(True) }}
+LINK                    {{ dircolors.LINK|termfg(True) }}
+
+ORPHAN                  {{ dircolors.ORPHAN|termfg(True) }}
+MISSING                 {{ dircolors.MISSING|termfg(True) }}
+MULTIHARDLINK           1
+
+FIFO                    {{ dircolors.FIFO|termfg(False) }}
+SOCK                    {{ dircolors.SOCK|termfg(True) }}
+DOOR                    {{ dircolors.DOOR|termfg(True) }}
+
+CHR                     {{ dircolors.DEVICE|termfg(False) }}
+BLK                     {{ dircolors.DEVICE|termfg(True) }}
+
+SETUID                  1;48;5;16;38;5;203
+SETGID                  1;48;5;16;38;5;214
+CAPABILITY              1;48;5;16;38;5;112
+
+OTHER_WRITABLE          1;48;5;24;38;5;203
+STICKY_OTHER_WRITABLE   1;48;5;24;38;5;214
+STICKY                  1;48;5;24;38;5;112
+
+EXEC                    1;38;5;{{ dircolors.EXEC|term }}
+.cmd                    0;38;5;{{ dircolors.executable|term }}
+.exe                    0;38;5;{{ dircolors.executable|term }}
+.com                    0;38;5;{{ dircolors.executable|term }}
+.btm                    0;38;5;{{ dircolors.executable|term }}
+.bat                    0;38;5;{{ dircolors.executable|term }}
+.sh                     0;38;5;{{ dircolors.executable|term }}
+.csh                    0;38;5;{{ dircolors.executable|term }}
+
+.txt                    0;38;5;{{ dircolors.text|term }}
+.md                     0;38;5;{{ dircolors.text|term }}
+
+# archive/compressed
+.tar                    0;38;5;{{ dircolors.archive|term }}
+.tar                    0;38;5;{{ dircolors.archive|term }}
+.tgz                    0;38;5;{{ dircolors.archive|term }}
+.arc                    0;38;5;{{ dircolors.archive|term }}
+.arj                    0;38;5;{{ dircolors.archive|term }}
+.taz                    0;38;5;{{ dircolors.archive|term }}
+.lha                    0;38;5;{{ dircolors.archive|term }}
+.lz4                    0;38;5;{{ dircolors.archive|term }}
+.lzh                    0;38;5;{{ dircolors.archive|term }}
+.lzma                   0;38;5;{{ dircolors.archive|term }}
+.tlz                    0;38;5;{{ dircolors.archive|term }}
+.txz                    0;38;5;{{ dircolors.archive|term }}
+.tzo                    0;38;5;{{ dircolors.archive|term }}
+.t7z                    0;38;5;{{ dircolors.archive|term }}
+.zip                    0;38;5;{{ dircolors.archive|term }}
+.z                      0;38;5;{{ dircolors.archive|term }}
+.dz                     0;38;5;{{ dircolors.archive|term }}
+.gz                     0;38;5;{{ dircolors.archive|term }}
+.lrz                    0;38;5;{{ dircolors.archive|term }}
+.lz                     0;38;5;{{ dircolors.archive|term }}
+.lzo                    0;38;5;{{ dircolors.archive|term }}
+.xz                     0;38;5;{{ dircolors.archive|term }}
+.zst                    0;38;5;{{ dircolors.archive|term }}
+.tzst                   0;38;5;{{ dircolors.archive|term }}
+.bz2                    0;38;5;{{ dircolors.archive|term }}
+.bz                     0;38;5;{{ dircolors.archive|term }}
+.tbz                    0;38;5;{{ dircolors.archive|term }}
+.tbz2                   0;38;5;{{ dircolors.archive|term }}
+.tz                     0;38;5;{{ dircolors.archive|term }}
+.deb                    0;38;5;{{ dircolors.archive|term }}
+.rpm                    0;38;5;{{ dircolors.archive|term }}
+.jar                    0;38;5;{{ dircolors.archive|term }}
+.war                    0;38;5;{{ dircolors.archive|term }}
+.ear                    0;38;5;{{ dircolors.archive|term }}
+.sar                    0;38;5;{{ dircolors.archive|term }}
+.rar                    0;38;5;{{ dircolors.archive|term }}
+.alz                    0;38;5;{{ dircolors.archive|term }}
+.ace                    0;38;5;{{ dircolors.archive|term }}
+.zoo                    0;38;5;{{ dircolors.archive|term }}
+.cpio                   0;38;5;{{ dircolors.archive|term }}
+.7z                     0;38;5;{{ dircolors.archive|term }}
+.rz                     0;38;5;{{ dircolors.archive|term }}
+.cab                    0;38;5;{{ dircolors.archive|term }}
+.wim                    0;38;5;{{ dircolors.archive|term }}
+.swm                    0;38;5;{{ dircolors.archive|term }}
+.dwm                    0;38;5;{{ dircolors.archive|term }}
+.esd                    0;38;5;{{ dircolors.archive|term }}
+
+# filesystem image
+.vdi                    1;38;5;{{ dircolors.filesystem|term }}
+.vmdk                   1;38;5;{{ dircolors.filesystem|term }}
+.vhd                    1;38;5;{{ dircolors.filesystem|term }}
+.vpc                    1;38;5;{{ dircolors.filesystem|term }}
+.iso                    1;38;5;{{ dircolors.filesystem|term }}
+.img                    1;38;5;{{ dircolors.filesystem|term }}
+.squashfs               1;38;5;{{ dircolors.filesystem|term }}
+.qcow2                  1;38;5;{{ dircolors.filesystem|term }}
+.qed                    1;38;5;{{ dircolors.filesystem|term }}
+.raw                    1;38;5;{{ dircolors.filesystem|term }}
+
+# graphics
+.jpg                    0;38;5;{{ dircolors.graphics|term }}
+.jpeg                   0;38;5;{{ dircolors.graphics|term }}
+.gif                    0;38;5;{{ dircolors.graphics|term }}
+.bmp                    0;38;5;{{ dircolors.graphics|term }}
+.pbm                    0;38;5;{{ dircolors.graphics|term }}
+.pgm                    0;38;5;{{ dircolors.graphics|term }}
+.ppm                    0;38;5;{{ dircolors.graphics|term }}
+.tga                    0;38;5;{{ dircolors.graphics|term }}
+.xbm                    0;38;5;{{ dircolors.graphics|term }}
+.xpm                    0;38;5;{{ dircolors.graphics|term }}
+.tif                    0;38;5;{{ dircolors.graphics|term }}
+.tiff                   0;38;5;{{ dircolors.graphics|term }}
+.png                    0;38;5;{{ dircolors.graphics|term }}
+.svg                    0;38;5;{{ dircolors.graphics|term }}
+.svgz                   0;38;5;{{ dircolors.graphics|term }}
+.mng                    0;38;5;{{ dircolors.graphics|term }}
+.pcx                    0;38;5;{{ dircolors.graphics|term }}
+.flc                    0;38;5;{{ dircolors.graphics|term }}
+.fli                    0;38;5;{{ dircolors.graphics|term }}
+.gl                     0;38;5;{{ dircolors.graphics|term }}
+.dl                     0;38;5;{{ dircolors.graphics|term }}
+.xcf                    0;38;5;{{ dircolors.graphics|term }}
+.xwd                    0;38;5;{{ dircolors.graphics|term }}
+.yuv                    0;38;5;{{ dircolors.graphics|term }}
+.cgm                    0;38;5;{{ dircolors.graphics|term }}
+.emf                    0;38;5;{{ dircolors.graphics|term }}
+
+# multimedia
+.mjpg                   0;38;5;{{ dircolors.multimedia|term }}
+.mjpeg                  0;38;5;{{ dircolors.multimedia|term }}
+.mov                    0;38;5;{{ dircolors.multimedia|term }}
+.mpg                    0;38;5;{{ dircolors.multimedia|term }}
+.mpeg                   0;38;5;{{ dircolors.multimedia|term }}
+.m2v                    0;38;5;{{ dircolors.multimedia|term }}
+.mkv                    0;38;5;{{ dircolors.multimedia|term }}
+.webm                   0;38;5;{{ dircolors.multimedia|term }}
+.ogm                    0;38;5;{{ dircolors.multimedia|term }}
+.mp4                    0;38;5;{{ dircolors.multimedia|term }}
+.m4v                    0;38;5;{{ dircolors.multimedia|term }}
+.mp4v                   0;38;5;{{ dircolors.multimedia|term }}
+.vob                    0;38;5;{{ dircolors.multimedia|term }}
+.qt                     0;38;5;{{ dircolors.multimedia|term }}
+.nuv                    0;38;5;{{ dircolors.multimedia|term }}
+.wmv                    0;38;5;{{ dircolors.multimedia|term }}
+.asf                    0;38;5;{{ dircolors.multimedia|term }}
+.rm                     0;38;5;{{ dircolors.multimedia|term }}
+.rmvb                   0;38;5;{{ dircolors.multimedia|term }}
+.avi                    0;38;5;{{ dircolors.multimedia|term }}
+.flv                    0;38;5;{{ dircolors.multimedia|term }}
+.ogv                    0;38;5;{{ dircolors.multimedia|term }}
+.ogx                    0;38;5;{{ dircolors.multimedia|term }}
+
+# audio
+.aac                    0;38;5;{{ dircolors.audio|term }}
+.au                     0;38;5;{{ dircolors.audio|term }}
+.flac                   0;38;5;{{ dircolors.audio|term }}
+.m4a                    0;38;5;{{ dircolors.audio|term }}
+.mid                    0;38;5;{{ dircolors.audio|term }}
+.midi                   0;38;5;{{ dircolors.audio|term }}
+.mka                    0;38;5;{{ dircolors.audio|term }}
+.mp3                    0;38;5;{{ dircolors.audio|term }}
+.mpc                    0;38;5;{{ dircolors.audio|term }}
+.ogg                    0;38;5;{{ dircolors.audio|term }}
+.ra                     0;38;5;{{ dircolors.audio|term }}
+.wav                    0;38;5;{{ dircolors.audio|term }}
+.oga                    0;38;5;{{ dircolors.audio|term }}
+.opus                   0;38;5;{{ dircolors.audio|term }}
+.spx                    0;38;5;{{ dircolors.audio|term }}
+.xspf                   0;38;5;{{ dircolors.audio|term }}

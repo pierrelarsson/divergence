@@ -1,0 +1,27 @@
+<html>
+ <head>
+  <title>divergence</title>
+ </head>
+ <body style="background-color:#{{ gray.x1c|hex }};font-family:Monospace;">
+  <table>
+{% for variant in ['hue', 'tint', 'tone', 'shade'] %}
+   <tr style="background-color:#{{ gray.x44|hex }};color:#{{ gray.xe4|hex }};height:30px;"><td colspan=4><b>{{ variant }}</b></td></tr>
+{% for name, color in dict(red=red, orange=orange, yellow=yellow, green=green, cyan=cyan, blue=blue, purple=purple, magenta=magenta).items() %}
+   <tr style="background-color:#{{ color[variant]|hex }};">
+    <td width=100>{{ name }}</td>
+    <td width=40 align=center>{{ color[variant]|term }}</td>
+    <td width=80 align=center>#{{ color[variant]|hex }}</td>
+    <td width=120 align=right>({{ color[variant]|dec }})</td>
+   </tr>
+{% endfor %}
+{% endfor %}
+   <tr style="background-color:#{{ gray.x44|hex }};color:#{{ gray.xe4|hex }};height:30px;"><td colspan=4><b>gray</b></td></tr>
+{% for variant in gray %}
+   <tr style="background-color:#{{ gray[variant]|hex }};">
+    <td width=100>{{ variant }}</td>
+    <td width=40 align=center>{{ gray[variant]|term(False) }}</td>
+    <td width=80 align=center>#{{ gray[variant]|hex }}</td>
+    <td width=120 align=right>({{ gray[variant]|dec }})</td>
+   </tr>
+{% endfor %}
+</table>

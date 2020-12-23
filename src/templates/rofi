@@ -1,0 +1,130 @@
+/*
+vim: syntax=css:
+*/
+
+* {
+    text-color:         #{{ rofi.foreground|hex }};
+    font:               "Monospace 9";
+    highlight:          bold #{{ rofi.highlight|hex }};
+    spacing:            0;
+}
+
+#window {
+    border:             6;
+    border-color:       #{{ rofi.border|hex }};
+}
+
+#mainbox {
+    background-color:   #{{ rofi.background|hex }};
+    padding:            0 0 0 2;
+    orientation:        vertical;
+    children:           [ listview, footer ];
+}
+
+#listview {
+    background-color:   #{{ rofi.empty|hex }};
+    scrollbar:          true;
+    fixed-columns:      true;
+    lines:              16;
+    padding:            0;
+    margin:             0;
+}
+
+#element {
+    background-color:   #{{ rofi.background|hex }};
+    padding:            4;
+}
+
+#element selected {
+    background-color:   #{{ rofi.scrollbar|hex }};
+    color:              #{{ rofi.selected|hex }};
+}
+
+#footer {
+    expand:             false;
+    orientation:        horizontal;
+    children:           [ bar, scrollbar ];
+}
+
+#bar {
+    background-color:   #{{ rofi.background|hex }};
+    expand:             true;
+    orientation:        vertical;
+    children:           [ statusbar, inputbar ];
+}
+
+#statusbar {
+    background-color:   #{{ rofi.bar|hex }};
+    orientation:        horizontal;
+    expand:             true;
+    horizontal-align:   1;
+    children:           [ prompt, rows, case-indicator ];
+    padding:            2;
+    spacing:            4;
+}
+
+#rows {
+    orientation:        horizontal;
+    children:           [ num-filtered-rows, textboxrows, num-rows ];
+    expand:             false;
+}
+
+#textboxrows {
+    font:               "Monospace Bold 9";
+    text-color:         #{{ rofi.heading|hex }};
+    background-color:   #{{ rofi.bar|hex }};
+    content:            "/";
+}
+
+#inputbar {
+    background-color:   #{{ rofi.background|hex }};
+    children:           [ textboxlabel, entry ];
+}
+
+#textboxlabel {
+    background-color:   #{{ rofi.background|hex }};
+    content:            ":";
+    padding:            4 0;
+    expand:             false;
+}
+
+#prompt {
+    font:               "Monospace Bold 9";
+    text-color:         #{{ rofi.heading|hex }};
+    background-color:   #{{ rofi.bar|hex }};
+    expand:             true;
+}
+
+#num-rows {
+    font:               "Monospace Bold 9";
+    text-color:         #{{ rofi.heading|hex }};
+    background-color:   #{{ rofi.bar|hex }};
+}
+
+#num-filtered-rows {
+    font:               "Monospace Bold 9";
+    text-color:         #{{ rofi.heading|hex }};
+    background-color:   #{{ rofi.bar|hex }};
+}
+
+#case-indicator {
+    font:               "Monospace Bold 9";
+    text-color:         #{{ rofi.heading|hex }};
+    background-color:   #{{ rofi.bar|hex }};
+}
+
+#entry {
+    background-color:   #{{ rofi.background|hex }};
+    padding:            4 0;
+}
+
+#scrollbar {
+    background-color:   #{{ rofi.scrollbar|hex }};
+    handle-color:       #{{ rofi.bar|hex }};
+    handle-width:       14;
+    padding:            1;
+    width:              18;
+    expand:             false;
+    border:             0 0 0 2;
+    border-color:       #{{ rofi.background|hex }};
+}

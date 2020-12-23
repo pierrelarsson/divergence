@@ -1,0 +1,31 @@
+!# vim: set filetype=xdefaults:
+
+xscreensaver.Dialog.background:                 #{{ xscreensaver.background|hex }}
+xscreensaver.Dialog.foreground:                 #{{ xscreensaver.heading|hex }}
+xscreensaver.Dialog.shadowThickness:            3
+xscreensaver.Dialog.topShadowColor:             #{{ xscreensaver.background|hex }}
+xscreensaver.Dialog.bottomShadowColor:          #{{ xscreensaver.background|hex }}
+xscreensaver.Dialog.Button.background:          #{{ xscreensaver.background|hex }}
+xscreensaver.Dialog.Button.foreground:          #{{ xscreensaver.background|hex }}
+xscreensaver.Dialog.text.background:            #{{ xscreensaver.empty|hex }}
+xscreensaver.Dialog.text.foreground:            #{{ xscreensaver.foreground|hex }}
+xscreensaver.Dialog.borderWidth:                6
+xscreensaver.Dialog.borderColor:                #{{ xscreensaver.border|hex }}
+xscreensaver.Dialog.internalBorderWidth:        26
+
+xscreensaver.passwd.thermometer.width:          18
+xscreensaver.passwd.thermometer.foreground:     #{{ xscreensaver.progress|hex }}
+xscreensaver.passwd.thermometer.background:     #{{ xscreensaver.empty|hex }}
+
+xscreensaver.Dialog.headingFont:                -adobe-helvetica-bold-r-*-*-34-*-*-*-*-*-*
+xscreensaver.Dialog.bodyFont:                   -adobe-helvetica-bold-r-*-*-14-*-*-*-*-*-*
+xscreensaver.Dialog.labelFont:                  -adobe-helvetica-bold-r-*-*-20-*-*-*-*-*-*
+xscreensaver.Dialog.unameFont:                  -adobe-helvetica-bold-r-*-*-14-*-*-*-*-*-*
+xscreensaver.Dialog.buttonFont:                 -adobe-helvetica-bold-r-*-*-20-*-*-*-*-*-*
+xscreensaver.Dialog.dateFont:                   -adobe-helvetica-bold-r-*-*-14-*-*-*-*-*-*
+xscreensaver.passwd.passwdFont:                 -adobe-helvetica-bold-r-*-*-14-*-*-*-*-*-*
+
+xscreensaver.dateFormat:
+xscreensaver.passwd.body.label:
+xscreensaver.passwd.heading.label:              LOCKED
+xscreensaver.newLoginCommand:

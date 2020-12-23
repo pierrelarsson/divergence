@@ -1,0 +1,84 @@
+" vim: set filetype=vim: sw=2 tw=0 ts=4 sw=4
+" -----------------------------------------------------------------------------
+" File: divergence.vim
+" Description: a bright on dark theme
+" Author: Pierre Larsson <pierre.rj.larsson@gmail.com>
+" -----------------------------------------------------------------------------
+
+highlight clear
+if exists("syntax_on")
+  syntax reset
+endif
+let g:colors_name = "divergence"
+
+" syntax colors
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+hi! Comment                 cterm=none ctermbg=none ctermfg={{ vim.Comment|term }}
+
+hi! Constant                cterm=bold ctermbg=none ctermfg={{ vim.Constant|term }}
+ hi! String                 cterm=none ctermbg=none ctermfg={{ vim.String|term }}
+ hi! Character              cterm=bold ctermbg=none ctermfg={{ vim.Character|term }}
+ hi! Number                 cterm=none ctermbg=none ctermfg={{ vim.Number|term }}
+ hi! Boolean                cterm=bold ctermbg=none ctermfg={{ vim.Boolean|term }}
+ hi! Float                  cterm=bold ctermbg=none ctermfg={{ vim.Float|term }}
+
+hi! Identifier              cterm=none ctermbg=none ctermfg={{ vim.Identifier|term }}
+ hi! Function               cterm=bold ctermbg=none ctermfg={{ vim.Function|term }}
+
+hi! Statement               cterm=bold ctermbg=none ctermfg={{ vim.Statement|term }}
+ hi! Conditional            cterm=bold ctermbg=none ctermfg={{ vim.Conditional|term }}
+ hi! Repeat                 cterm=bold ctermbg=none ctermfg={{ vim.Repeat|term }}
+ hi! Label                  cterm=none ctermbg=none ctermfg={{ vim.Label|term }}
+ hi! Operator               cterm=none ctermbg=none ctermfg={{ vim.Operator|term }}
+ hi! Keyword                cterm=bold ctermbg=none ctermfg={{ vim.Keyword|term }}
+ hi! Exception              cterm=bold ctermbg=none ctermfg={{ vim.Exception|term }}
+
+hi! PreProc                 cterm=bold ctermbg=none ctermfg={{ vim.PreProc|term }}
+ hi! Include                cterm=bold ctermbg=none ctermfg={{ vim.Include|term }}
+ hi! Define                 cterm=none ctermbg=none ctermfg={{ vim.Define|term }}
+ hi! Macro                  cterm=none ctermbg=none ctermfg={{ vim.Macro|term }}
+ hi! PreCondit              cterm=bold ctermbg=none ctermfg={{ vim.PreCondit|term }}
+
+hi! Type                    cterm=bold ctermbg=none ctermfg={{ vim.Type|term }}
+hi! StorageClass            cterm=bold ctermbg=none ctermfg={{ vim.StorageClass|term }}
+hi! Structure               cterm=none ctermbg=none ctermfg={{ vim.Structure|term }}
+hi! Typedef                 cterm=bold ctermbg=none ctermfg={{ vim.Typedef|term }}
+
+hi! Special                 cterm=none ctermbg=none ctermfg={{ vim.Special|term }}
+ hi! SpecialChar            cterm=bold ctermbg=none ctermfg={{ vim.SpecialChar|term }}
+ hi! Tag                    cterm=bold ctermbg=none ctermfg={{ vim.Tag|term }}
+ hi! Delimiter              cterm=none ctermbg=none ctermfg={{ vim.Delimiter|term }}
+ hi! SpecialComment         cterm=bold ctermbg=none ctermfg={{ vim.SpecialComment|term }}
+ hi! Debug                  cterm=bold ctermbg=none ctermfg={{ vim.Debug|term }}
+
+hi! Underlined              cterm=underline ctermbg=none ctermfg={{ vim.Underlined|term }}
+
+hi! Error                   cterm=bold ctermbg=none ctermfg={{ vim.Error|term }}
+
+hi! Todo                    cterm=bold ctermbg=none ctermfg={{ vim.Todo|term }}
+
+" vim colors
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+hi! MatchParen              cterm=bold ctermbg={{ vim.MatchParen|term }} ctermfg={{ vim.empty|term }}
+hi! Search                  cterm=none ctermbg={{ vim.Search|term }} ctermfg={{ vim.empty|term }}
+ hi! link IncSearch Search
+
+hi! NonText                 cterm=none ctermbg={{ vim.empty|term }} ctermfg={{ vim.Comment|term }}
+
+hi! SpecialKey              cterm=none ctermbg=none ctermfg={{ vim.SpecialKey|term }}
+
+hi! Visual                  ctermbg={{ vim.Visual|term }}
+
+hi! ErrorMsg                cterm=bold ctermbg=none ctermfg={{ vim.ErrorMsg|term }}
+hi! WarningMsg              cterm=bold ctermbg=none ctermfg={{ vim.WarningMsg|term }}
+
+hi! MoreMsg                 cterm=underline ctermbg=none ctermfg={{ vim.Message|term }}
+hi! Question                cterm=underline ctermbg=none ctermfg={{ vim.Message|term }}
+
+hi! pMenu                   cterm=none ctermbg={{ vim.empty|term }} ctermfg=none
+hi! pMenuSel                cterm=bold ctermbg={{ vim.Search|term }} ctermfg={{ vim.empty|term }}
+hi! StatusLine              cterm=bold ctermfg={{ vim.active|term }} ctermbg={{ vim.statusbar|term }}
+hi! StatusLineNC            cterm=none ctermfg={{ vim.inactive|term }} ctermbg={{ vim.statusbar|term }}
+hi! CursorLine              cterm=none ctermbg={{ vim.CursorLine|term }}
+
+set background=dark

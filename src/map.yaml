@@ -1,0 +1,188 @@
+---
+gray:
+  xe4:
+    - vim.Delimiter
+    - rofi.heading
+    - xfcenotifyd.title
+    - i3.active
+    - xterm.color15
+    - vim.MatchParen
+    - vim.active
+  xd0:
+    - xterm.foreground
+    - duckduckgo.foreground
+    - rofi.foreground
+    - xfcenotifyd.foreground
+  x9e:
+    - vim.SpecialComment
+    - vim.Todo
+    - vim.SpecialKey
+    - xterm.color7
+    - xterm.cursor
+  x80:
+    - i3.inactive
+    - vim.inactive
+    - xterm.menu.border
+    - xfcenotifyd.border
+  x6c:
+    - vim.Comment
+    - xterm.color8
+    - i3.focused
+    - xscreensaver.foreground
+  x4e:
+    - xfcenotifyd.button
+    - xterm.border
+  x44:
+    - vim.Visual
+    - vim.statusbar
+    - i3.statusbar
+    - duckduckgo.header
+    - xterm.handle
+    - rofi.handle
+    - rofi.bar
+  x30:
+    - i3.unfocused
+    - xterm.menu.background
+    - xfcenotifyd.background
+  x26:
+    - xterm.scrollbar
+    - rofi.scrollbar
+    - vim.CursorLine
+    - xscreensaver.background
+    - xscreensaver.border
+  x1c:
+    - xterm.background
+    - duckduckgo.background
+    - rofi.background
+  x12:
+    - vim.empty
+    - rofi.empty
+    - i3.empty
+    - xterm.color0
+    - xscreensaver.heading
+    - xscreensaver.empty
+
+magenta:
+  hue:
+    - vim.Constant
+  tint:
+    - dircolors.audio
+  tone: []
+  shade:
+    - xterm.color5
+
+green:
+  hue:
+    - vim.Identifier
+    - vim.Structure
+    - rofi.highlight
+    - xfcenotifyd.hover
+    - i3.selected
+  tint:
+    - vim.Boolean
+    - xterm.color10
+  tone:
+    - dircolors.EXEC
+    - vim.Function
+    - vim.Type
+    - rofi.selected
+    - xterm.color2
+  shade:
+    - dircolors.executable
+    - vim.Typedef
+    - rofi.border
+    - xscreensaver.progress
+
+blue:
+  hue:
+    - vim.Statement
+    - vim.StorageClass
+    - mutt.subject
+    - duckduckgo.title
+  tint:
+    - xterm.color12
+  tone:
+    - dircolors.archive
+    - dircolors.filesystem
+  shade:
+    - xterm.color4
+    - dircolors.DIR
+    - vim.Include
+    - vim.Define
+    - vim.Macro
+    - mutt.headers
+
+orange:
+  hue:
+    - dircolors.DEVICE
+    - duckduckgo.url
+    - vim.Conditional
+    - vim.Repeat
+    - vim.Label
+    - vim.Operator
+  tint:
+    - xterm.color11
+    - vim.Special
+    - vim.SpecialChar
+  tone:
+    - vim.Search
+    - i3.urgent
+    - vim.WarningMsg
+    - xterm.color3
+  shade: []
+
+yellow:
+  hue: []
+  tint:
+    - dircolors.text
+    - vim.String
+    - vim.Character
+  tone:
+    - dircolors.FIFO
+    - dircolors.SOCK
+    - dircolors.DOOR
+    - vim.Debug
+    - vim.Message
+  shade: []
+
+cyan:
+  hue:
+    - vim.Tag
+  tint:
+    - dircolors.LINK
+    - vim.PreCondit
+    - xterm.color14
+    - mutt.attachment
+  tone:
+    - xterm.color6
+    - vim.Underlined
+  shade:
+    - dircolors.ORPHAN
+    - vim.PreProc
+
+red:
+  hue:
+    - vim.Exception
+    - vim.Error
+    - vim.ErrorMsg
+    - xterm.color1
+    - mutt.error
+  tint:
+    - dircolors.graphics
+    - xterm.color9
+  tone:
+    - vim.Number
+    - vim.Float
+  shade:
+    - dircolors.MISSING
+
+purple:
+  hue:
+    - duckduckgo.visited
+  tint:
+    - dircolors.multimedia
+    - xterm.color13
+  tone:
+    - vim.Keyword
+  shade: []
+...

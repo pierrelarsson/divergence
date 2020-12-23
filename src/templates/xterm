@@ -1,0 +1,55 @@
+!# vim: set filetype=xdefaults:
+
+!# config
+XTerm*borderWidth:                          0
+XTerm*scrollBarBorder:                      0
+XTerm*borderColor:                          rgb:00/00/00
+XTerm*boldColors:                           false
+XTerm*cursorColor:                          rgb:{{ xterm.cursor|hex("/") }}
+XTerm.vt100.internalBorder:                 2
+XTerm.vt100.scrollbar.thumb:                None
+
+
+XTerm.SimpleMenu.borderWidth:               6
+XTerm.SimpleMenu.borderColor:               rgb:{{ xterm.menu.border|hex("/") }}
+XTerm.SimpleMenu*background:                rgb:{{ xterm.menu.background|hex("/") }}
+
+
+XTerm*Scrollbar.background:                 rgb:{{ xterm.scrollbar|hex("/") }}
+XTerm*Scrollbar.foreground:                 rgb:{{ xterm.handle|hex("/") }}
+
+!# foreground
+XTerm*foreground:                           rgb:{{ xterm.foreground|hex("/") }}
+XTerm*background:                           rgb:{{ xterm.background|hex("/") }}
+
+!# black/white
+XTerm*VT100*color0:                         rgb:{{ xterm.color0|hex("/") }}
+XTerm*VT100*color15:                        rgb:{{ xterm.color15|hex("/") }}
+
+!# gray
+XTerm*VT100*color8:                         rgb:{{ xterm.color8|hex("/") }}
+XTerm*VT100*color7:                         rgb:{{ xterm.color7|hex("/") }}
+
+!# red
+XTerm*VT100*color1:                         rgb:{{ xterm.color1|hex("/") }}
+XTerm*VT100*color9:                         rgb:{{ xterm.color9|hex("/") }}
+
+!# green
+XTerm*VT100*color2:                         rgb:{{ xterm.color2|hex("/") }}
+XTerm*VT100*color10:                        rgb:{{ xterm.color10|hex("/") }}
+
+!# yellow
+XTerm*VT100*color3:                         rgb:{{ xterm.color3|hex("/") }}
+XTerm*VT100*color11:                        rgb:{{ xterm.color11|hex("/") }}
+
+!# blue
+XTerm*VT100*color4:                         rgb:{{ xterm.color4|hex("/") }}
+XTerm*VT100*color12:                        rgb:{{ xterm.color12|hex("/") }}
+
+!# magenta
+XTerm*VT100*color5:                         rgb:{{ xterm.color5|hex("/") }}
+XTerm*VT100*color13:                        rgb:{{ xterm.color13|hex("/") }}
+
+!# cyan
+XTerm*VT100*color6:                         rgb:{{ xterm.color6|hex("/") }}
+XTerm*VT100*color14:                        rgb:{{ xterm.color14|hex("/") }}

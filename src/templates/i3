@@ -1,0 +1,19 @@
+client.focused              #{{i3.focused|hex}}ff #{{i3.focused|hex}}ff #{{i3.active|hex}}ff #{{i3.selected|hex}}ff #{{i3.focused|hex}}ff
+client.focused_inactive     #{{i3.unfocused|hex}}ff #{{i3.unfocused|hex}}ff #{{i3.inactive|hex}}ff #{{i3.unfocused|hex}}ff #{{i3.unfocused|hex}}ff
+client.unfocused            #{{i3.unfocused|hex}}ff #{{i3.unfocused|hex}}ff #{{i3.inactive|hex}}ff #{{i3.unfocused|hex}}ff #{{i3.unfocused|hex}}ff
+client.urgent               #{{i3.urgent|hex}}ff #{{i3.urgent|hex}}ff #{{i3.inactive|hex}}ff #{{i3.urgent|hex}}ff #{{i3.urgent|hex}}ff
+client.placeholder          #{{i3.unfocused|hex}}ff #{{i3.empty|hex}}ff #{{i3.inactive|hex}}ff #{{i3.unfocused|hex}}ff #{{i3.unfocused|hex}}ff
+client.background           #{{i3.empty|hex}}ff
+
+bar {
+    colors {
+        background              #{{i3.statusbar|hex}}ff
+        statusline              #{{i3.inactive|hex}}ff
+        separator               #{{i3.inactive|hex}}ff
+
+        focused_workspace       #{{i3.statusbar|hex}}ff #{{i3.statusbar|hex}}ff #{{i3.selected|hex}}ff
+        active_workspace        #{{i3.statusbar|hex}}ff #{{i3.statusbar|hex}}ff #{{i3.active|hex}}ff
+        inactive_workspace      #{{i3.statusbar|hex}}ff #{{i3.statusbar|hex}}ff #{{i3.inactive|hex}}ff
+        urgent_workspace        #{{i3.statusbar|hex}}ff #{{i3.statusbar|hex}}ff #{{i3.urgent|hex}}ff
+    }
+}
