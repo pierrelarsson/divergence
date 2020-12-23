@@ -87,6 +87,7 @@ green:
     - vim.Type
     - rofi.selected
     - xterm.color2
+    - i3status.good
   shade:
     - dircolors.executable
     - vim.Typedef
@@ -129,6 +130,7 @@ orange:
     - i3.urgent
     - vim.WarningMsg
     - xterm.color3
+    - i3status.degraded
   shade: []
 
 yellow:
@@ -173,6 +175,7 @@ red:
   tone:
     - vim.Number
     - vim.Float
+    - i3status.bad
   shade:
     - dircolors.MISSING
 

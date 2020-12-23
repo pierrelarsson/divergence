@@ -1,0 +1,6 @@
+general {                                                                                                                           
+        colors          = true
+        color_good      = "#{{ i3status.good|hex }}"
+        color_degraded  = "#{{ i3status.degraded|hex }}"
+        color_bad       = "#{{ i3status.bad|hex }}"
+}
