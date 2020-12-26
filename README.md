@@ -10,6 +10,7 @@ git clone https://github.com/pierrelarsson/divergence.git ~/.themes/divergence
 
 vim
 ---
+![image](https://user-images.githubusercontent.com/248880/103152236-61630080-4786-11eb-961f-1491ac00d1a2.png)   
 Symlink the **vim** file into your ```~/.vim/colors``` directory, eg.
 ```sh
 mkdir --verbose --parents ~/.vim/colors
@@ -58,7 +59,7 @@ Or you can manually configure it in ```~/.config/xfce4/xfconf/xfce-perchannel-xm
 
 rofi
 ----
-![image](https://user-images.githubusercontent.com/248880/103152086-c74e8880-4784-11eb-842f-358627fee30a.png)
+![image](https://user-images.githubusercontent.com/248880/103152086-c74e8880-4784-11eb-842f-358627fee30a.png)   
 Specify the theme in ```.config/rofi/config```, eg.
 ```
 configuration {
