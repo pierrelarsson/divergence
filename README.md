@@ -56,6 +56,16 @@ Or you can manually configure it in ```~/.config/xfce4/xfconf/xfce-perchannel-xm
 <property name="theme" type="string" value="divergence"/>
 ```
 
+rofi
+----
+![image](https://user-images.githubusercontent.com/248880/103152086-c74e8880-4784-11eb-842f-358627fee30a.png)
+Specify the theme in ```.config/rofi/config```, eg.
+```
+configuration {
+    rofi.theme: ~/.themes/divergence/rofi
+}
+```
+
 i3
 --
 **TODO**
