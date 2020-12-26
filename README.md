@@ -23,6 +23,7 @@ colorscheme divergence
 
 xterm
 -----
+![image](https://user-images.githubusercontent.com/248880/103152442-51e4b700-4788-11eb-84de-7ea09836acd6.png)  
 Include **xterm** from ```~/.Xresources```, eg.
 ```xdefaults
 #include ".themes/divergence/xterm"
