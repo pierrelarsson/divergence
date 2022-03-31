@@ -29,3 +29,36 @@ xscreensaver.dateFormat:
 xscreensaver.passwd.body.label:
 xscreensaver.passwd.heading.label:              LOCKED
 xscreensaver.newLoginCommand:
+
+!# add support for XScreenSaver >= 6.0
+
+XScreenSaver.themeNames:                                Divergence
+XScreenSaver.dialogTheme:                               divergence
+
+XScreenSaver.divergence.Dialog.background:              #262626
+XScreenSaver.divergence.Dialog.foreground:              #121212
+XScreenSaver.divergence.Dialog.topShadowColor:          #262626
+XScreenSaver.divergence.Dialog.bottomShadowColor:       #262626
+XScreenSaver.divergence.Dialog.shadowWidth:             3
+XScreenSaver.divergence.Dialog.button.background:       #262626
+XScreenSaver.divergence.Dialog.button.foreground:       #262626
+XScreenSaver.divergence.Dialog.borderWidth:             0
+XScreenSaver.divergence.Dialog.borderColor:	        #121212
+XScreenSaver.divergence.Dialog.text.foreground:         #6c6c6c
+XScreenSaver.divergence.Dialog.text.background:         #121212
+XScreenSaver.divergence.Dialog.logo.background:         #262626
+XScreenSaver.divergence.Dialog.internalPadding:         32
+XScreenSaver.divergence.Dialog.thermometer.foreground:  #5f8700
+XScreenSaver.divergence.Dialog.thermometer.background:  #121212
+XScreenSaver.divergence.Dialog.thermometer.width:       18
+
+XScreenSaver.divergence.Dialog.headingFont:             monospace 9
+XScreenSaver.divergence.Dialog.bodyFont:                monospace 20
+XScreenSaver.divergence.Dialog.errorFont:               monospace bold 14
+XScreenSaver.divergence.Dialog.labelFont:               monospace 10
+XScreenSaver.divergence.Dialog.unameFont:               monospace bold 14
+XScreenSaver.divergence.Dialog.buttonFont:              monospace 1
+XScreenSaver.divergence.Dialog.dateFont:                monospace 9
+
+XScreenSaver*dateFormat:
+XScreenSaver*newLoginCommand:
