@@ -4,6 +4,7 @@ vim: syntax=css:
 
 * {
     text-color:         #d0d0d0;
+    background-color:   #00000000;
     font:               "Monospace 9";
     highlight:          bold #afff00;
     spacing:            0;
